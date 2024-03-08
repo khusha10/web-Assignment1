@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30;
+    padding: 0;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 1px;
+}
+
+th {
+    text-align: left;
+}
+
+.line-gap {
+    margin-top: 1em;
+}
+
+
+.mailbox-logo {
+    background-image: url('mail-logo'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px; 
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 5px; /
+  }
+
+.profile-description {
+    text-align: center;
+    padding-left: 20%; 
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #c2a8a8; 
+    margin-left:15%;
+    margin-right:15%
+}
+
+.flex-container > div {
+  background-color: white;
+  color: black;
+  margin: 5px;
+  text-align: left; 
+  line-height: 5px;
+  font-size: 15px;
+}
+  
+.flex-containerr {
+  display: flex;
+  align-items: stretch; 
+  margin-left:6%;
+  margin-right:6%
+}
+
+.flex-containerr > div {
+    background-color: white;
+    margin: 5px;
+    text-align: left; 
+    line-height: 5px;
+    font-size: 15px;
+}
+
+  .flex-container > div > .profile_data  {
+    display: flex;
+    flex-direction: row !important;
+ 
+  }
+ 
+    .flex-container >  div > .profile_data  > p {
+        padding-left: 8px;
+    }
+
+  .flex-container > .photo {
+    display: block;
+    margin-right: auto;
+  }
+  
+  .flex-container > .info {
+    padding-left: 12px;
+    margin-left: 12px;
+  }
+
+  
